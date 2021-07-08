@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    font-family: 'Uchen', serif;
+    
+} 
+.container{
+    background-color: rgb(128, 209, 247);
+    color: rgb(0, 0, 0);
+   max-width: 70%;
+   margin: 0 auto;
+   padding: 10px;
+
+}
+
+/* header start  */
+
+header .profile-pic{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header-bio{
+    float: left;
+    padding: 14px;
+
+}
+
+h1 ,h2, h3, h4, h5 ,h6{
+    color: #11999e;
+}
+
+header .contact{
+    float: right;
+    padding: 15px;
+    
+}
+header .contact a{
+    text-decoration: none;
+    color: teal;
+   font-weight: bold;
+}
+header .contact a:hover{
+    text-decoration: underline;
+    color: orangered;
+    
+}
+/* header end  */
+
+
+
+.clear-div{
+    clear: both; /*eta na korle overflow thik hobe na*/
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+/* personal-information style  */
+
+#personal-information{}
+.content{}
+.right-div{
+    width: 30%;
+    float: left;
+}
+.left-div{
+    float: left;
+    width: 70%;
+
+}
+/*  personal-information end */
+
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+ /* education start  */
+.right-edu-info{
+    width: 50%;
+    float: left;
+}
+.left-edu-info{
+    width: 50%;
+    float: left;
+}
+/* education end  */
+
+/* reference start  */
+.right-reference-info{
+    width: 50%;
+    float: left;
+}
+.left-reference-info{
+    width: 50%;
+    float: left;
+}
+/* reference end  */
+
+
+
+/* footer start  */
+
+.footer{
+    background-color: black;
+   text-align: center;
+    
+    
+}
+
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px;
+  
+    
+}
+.footer p{
+    color: white;
+    margin: 10px;   
+
+}
+/* footer end  */
